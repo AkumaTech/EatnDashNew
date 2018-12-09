@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Restaurant"
+            android:icon="@drawable/fork"
+            android:title="Restaurant" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart"
+            android:title="Cart" />
+        <item
+            android:id="@+id/nav_Order"
+            android:icon="@drawable/order"
+            android:title="Order" />
+        <item
+            android:id="@+id/nav_waiter"
+            android:icon="@drawable/waiter"
+            android:title="Request Staff" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+</menu>
